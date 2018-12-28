@@ -113,3 +113,7 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 TW_USE_LEDS_HAPTICS := true
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_TWRPAPP := true
+
+# selinux
+SELINUX_IGNORE_NEVERALLOWS := true
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/oneplus/fajita/sepolicy/private
