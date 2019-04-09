@@ -115,6 +115,7 @@ TW_USE_TOOLBOX := true
 TW_EXCLUDE_TWRPAPP := true
 USE_RECOVERY_INSTALLER := true
 RECOVERY_INSTALLER_PATH := device/oneplus/fajita/installer
+TW_INCLUDE_REPACKTOOLS := true
 
 # selinux
 SELINUX_IGNORE_NEVERALLOWS := true
